@@ -1,0 +1,35 @@
+{
+  "name": "MyVue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --public-url ./"
+  },
+  "dependencies": {
+    "amfe-flexible": "^2.2.1",
+    "axios": "^0.18.0",
+    "vant": "^1.0.1",
+    "vue": "^2.5.13",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.0.0",
+    "babel-plugin-component": "^1.1.0",
+    "babel-plugin-import": "^1.6.5",
+    "babel-plugin-module-resolver": "^3.1.0",
+    "babel-preset-env": "^1.6.1",
+    "mockjs": "^1.0.1-beta3",
+    "node-sass": "^4.7.2",
+    "parcel-bundler": "^1.6.2",
+    "parcel-plugin-alias": "^1.0.2",
+    "parcel-plugin-vue": "^1.5.0",
+    "postcss-loader": "^2.1.1",
+    "postcss-modules": "^1.1.0",
+    "sass-loader": "^6.0.6",
+    "scss-loader": "^0.0.1",
+    "vue-lazyload": "^1.2.2"
+  }
+}
